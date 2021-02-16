@@ -1,5 +1,5 @@
 <?php
-//сколько чисел Фибоначчи выводим на экран
+// сколько чисел Фибоначчи выводим на экран
 $quantity = readline("Enter the number = ");
 
 function fibonacci($n, $first = 0, $second = 1)
@@ -11,6 +11,6 @@ function fibonacci($n, $first = 0, $second = 1)
     return $fib;
 }
 
-//выводим числа Фибоначчи
+// выводим числа Фибоначчи
 print_r (fibonacci($quantity));
 ?>
